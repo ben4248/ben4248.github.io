@@ -1,9 +1,100 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
     <title>My Git Website</title>
-</head>
-<body>
-    <h1>ben4248 project website</h1>
-</body>
+    <!-- the tab title -->
+    <style>
+      body {
+        background-color: lightpink;
+      }
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0;
+      }
+
+      .pfp-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin: 0;
+      }
+
+      #main-pfp {
+        width: 200px;
+        border-radius: 100px;
+      }
+
+      .break {
+        flex-basis: 100%;
+        height: 0;
+      }
+
+      #bio {
+        width: 400px;
+      }
+
+      #cat-chase-heart {
+        width: 150px;
+      }
+
+      #cat-dance-with-heart {
+        width: 120px;
+      }
+
+      .links {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="title">
+      <img
+        src="gifs/cat chase heart.gif"
+        alt="cat chase heart"
+        id="cat-chase-heart"
+      />
+      <div><h1>ben4248 project website</h1></div>
+      <img src="gifs/cat dance.gif" alt="cat dance" id="cat-dance-with-heart" />
+    </div>
+
+    <div class="pfp-container">
+      <img
+        src="images/winter drama everline pob_cropped.png"
+        alt="winter from aespa"
+        id="main-pfp"
+      />
+      <p id="bio">
+        My personal website to display some of my favorites and showcase my
+        portfolio. I enjoy playing video games, watching anime, listening to
+        kpop, cooking, and trying restraunts. <br />
+        <br />
+        This is a pfp of Winter from aespa.
+      </p>
+    </div>
+
+    <div class="break"></div>
+
+    <div class="links">
+      <a
+        href="https://tracker.gg/valorant/profile/riot/UCSC%201SnowWinter%234248/overview?platform=pc&playlist=competitive&season=4f0864e2-40af-28a4-de2c-0e9e64e75f23"
+        target="_blank"
+      >
+        VALORANT Tracker</a
+      >
+      <a href="https://www.twitch.tv/1leafautumn" target="_blank">
+        Twitch Channel
+      </a>
+    </div>
+  </body>
 </html>
